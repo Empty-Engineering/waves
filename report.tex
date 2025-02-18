@@ -1,0 +1,110 @@
+\documentclass[12pt, a4paper, english]{article}
+\usepackage{babel,amsmath, accents,amssymb, graphicx,physics,orcidlink,float}
+\usepackage{academicons}
+\usepackage{longtable}
+\usepackage{pgfplotstable}
+\usepackage{pdflscape}
+\usepackage[backend=biber, style=chicago-authordate]{biblatex} % Use biber for bibliography
+\addbibresource{./references.bib} % Path to your .bib file
+\graphicspath{ {./images/} } % Path to your images
+
+% Custom commands
+\newcommand{\vc}[1]{\accentset{\rightharpoonup}{#1}}
+\newcommand{\Lagr}{\mathcal{L}}
+
+% Document metadata
+\title{Waves Lab A}
+\author{Lukas Michael Robin \orcidlink{0000-0003-3146-5903} \\
+2950541R@student.gla.ac.uk \\
+\textit{University of Glasgow}}
+\date{February 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% Add your abstract here
+\end{abstract}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Introduction}
+\subsection{Objective}
+The objective of this experiment is to investigate the properties of standing waves on a string and find the linear density of the string.
+
+\subsection{Theory}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{g1.png}
+    \caption{Figure of waveforms for each harmonic number. \\ Source: \cite{article1}}
+    \label{fig:string}
+\end{figure}
+
+The wave speed \( v \) on a string is given by:
+\begin{equation}\tag{1.2.1}
+    \left\lvert v \right\rvert = \sqrt{\frac{\vc{T}}{\mu}},
+\end{equation}
+where \( \vc{T} \) is the tension in the string and \( \mu \) is the linear density of the string \footcite{osphysics}.
+Using the basic wave equation: 
+\begin{equation}\tag{1.2.2}
+    v = \lambda \nu,
+\end{equation}
+where \( \lambda \) is the wavelength and \( \nu \) is the frequency of the wave, we can derive the relationship between the tension, linear density, and velocity of the wave:
+\begin{equation}\tag{1.2.3}
+    \mu = \frac{\vc{T}}{v^2}.
+\end{equation}
+Since we have no means to measure the speed of the wave directly, we can use the fundamental frequency of the wave, $\nu_n$ of the $\text{n}^\text{th}$ harmonic, $n$, to find the linear density of the string with length $\ell$:\footcite{YF}
+\begin{equation}\tag{1.2.4}
+    v= \frac{2\ell\nu_n}{n}.
+\end{equation}
+Substituting equation (1.2.4) into equation (1.2.3) gives:
+\begin{equation}\tag{1.2.5}
+    \mu = \frac{n^2\vc{T}}{4\ell^2\nu_n^2}.
+\end{equation}
+\subsection{Hypothesis}
+% Add your hypothesis here
+If we induce a standing wave on a string, then we can determine the linear density of the string by measuring the fundamental frequency of the wave because the linear density of the string is inversely proportional to the square of the frequency of the wave.
+\section{Method}
+\subsection{Materials}
+\begin{tabular}{ll}
+    \textbf{Item} & \textbf{Quantity} \\
+    \hline
+    String & 1 \\
+    1 kg Mass & 10 \\
+    Pickup & 2 \\
+    Signal Generator & 1 \\
+    Oscillloscope & 1 \\
+    Metre Ruler & 1 \\
+\hline
+\end{tabular}
+\subsection{Procedure}
+% Describe your procedure here
+First, the string was attached to the masses on either end and the tension in the string was adjusted until the string was taut. The signal generator was then set to produce a sine wave at a frequency of 0 Hz and connected to the first pickup, such that the pickup would induce a wave on the string. The singal generator then sweeps through a range of frequencies until the first harmonic is detected. In non-standing waves, the string would have chaotic motion because of the wave interfering with itself. Therefore, when the oscilloscope, connected to the second pickup, shows a clean sinusoidal waveform at $\ell /2$, then we know that the wave is a standing wave at the frequency of the signal generator. The lowest frequency at which the wave is a standing wave is the fundamental frequency of the wave, and the $n=1$ harmonic. 
+The frequency of the signal generator is then recorded. The frequency is then increased until the $n=2$ and $n=3$ harmonics are detected. The frequencies of the signal generator are recorded for each harmonic. This is repeated 5 times for strings of 3 distinct lengths. The linear density of the string is then calculated using equation (1.2.5).
+
+\subsection{Experimental Setup}
+% Describe your experimental setup here
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{chemix.jpg}
+    \caption{Experimental setup for the standing wave experiment. \\ Source: \cite{chemix}}
+    \label{fig:setup}
+\end{figure}
+\section{Results and Discussion}
+\subsection{Results}
+% Present your results here
+
+\subsection{Discussion}
+% Discuss your results here
+
+\section{Conclusion}
+% Write your conclusion here
+
+\pagebreak
+\printbibliography % Print the bibliography
+
+\end{document}

@@ -1,0 +1,158 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{article1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a65238fac202846158bbe17f2a6348aa}{%
+           family={Aerts},
+           familyi={A\bibinitperiod}}}%
+        {{hash=58000ea3b541d8cafb02c7625fd64723}{%
+           family={Diederik},
+           familyi={D\bibinitperiod}}}%
+        {{hash=44fe77f3c379543a92eb1c251230a28c}{%
+           family={Beltran},
+           familyi={B\bibinitperiod}}}%
+        {{hash=5f5398091b88c00ffeccaa7c10a5e3c5}{%
+           family={Lester},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca2629bdadfc673abbdc6f26ce0f3584}
+      \strng{fullhash}{261969fde325e38d50034d412e7de60c}
+      \strng{bibnamehash}{ca2629bdadfc673abbdc6f26ce0f3584}
+      \strng{authorbibnamehash}{ca2629bdadfc673abbdc6f26ce0f3584}
+      \strng{authornamehash}{ca2629bdadfc673abbdc6f26ce0f3584}
+      \strng{authorfullhash}{261969fde325e38d50034d412e7de60c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Foundations of Science}
+      \field{month}{09}
+      \field{title}{Quantum Structure in Cognition: Human Language as a Boson Gas of Entangled Words}
+      \field{volume}{25}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1007/s10699-019-09633-4
+      \endverb
+    \endentry
+    \entry{chemix}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=182dfccf625d114d73548621e199c4eb}{%
+           family={Chemix.com},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Codelite Ltd.}%
+      }
+      \strng{namehash}{182dfccf625d114d73548621e199c4eb}
+      \strng{fullhash}{182dfccf625d114d73548621e199c4eb}
+      \strng{bibnamehash}{182dfccf625d114d73548621e199c4eb}
+      \strng{authorbibnamehash}{182dfccf625d114d73548621e199c4eb}
+      \strng{authornamehash}{182dfccf625d114d73548621e199c4eb}
+      \strng{authorfullhash}{182dfccf625d114d73548621e199c4eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://chemix.org}}
+      \field{title}{{C}hemix - {D}raw {L}ab {D}iagrams. {S}imply. --- chemix.org}
+      \field{year}{2007}
+    \endentry
+    \entry{osphysics}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=d27239c7c6d1012fb2b3065066a57d33}{%
+           family={Moebs},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5d8ea1b31780273678431d81df6ebfd5}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b71f066590dc14bf63ee94545eb6f45c}{%
+           family={Sanny},
+           familyi={S\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OpenStax}%
+      }
+      \strng{namehash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \strng{fullhash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \strng{bibnamehash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \strng{authorbibnamehash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \strng{authornamehash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \strng{authorfullhash}{29a4e0fdca6d6344f1a4beb3aaef1eab}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-947172-20-3}
+      \field{title}{University Physics, Volume 1}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://openstax.org/details/books/university-physics-volume-1
+      \endverb
+      \verb{url}
+      \verb https://openstax.org/details/books/university-physics-volume-1
+      \endverb
+    \endentry
+    \entry{YF}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cf5e7c8f5f81a5e6472f3081abeda2cb}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Hugh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=073003dafd6f7a0d40236b25403e4573}{%
+           family={Freedman},
+           familyi={F\bibinitperiod},
+           given={Roger\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \strng{fullhash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \strng{bibnamehash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \strng{authorbibnamehash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \strng{authornamehash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \strng{authorfullhash}{5c4ca68f729f76eaa6590b6d01b339cf}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{15}
+      \field{title}{University physics with modern physics, global edition}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
